@@ -17,7 +17,7 @@ const actionsMap = {
   create: {
     alias: 'crt',
     des: '创建项目，后面跟项目名',
-    examples: ['yingCLi create|crt <projectName>']
+    examples: ['ying-cli|y-cli create|crt <projectName>']
   }
 }
 Object.keys(actionsMap).forEach((action) => {
